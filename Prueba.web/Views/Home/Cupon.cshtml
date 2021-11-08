@@ -1,0 +1,57 @@
+﻿<div class="app">
+    <header class="header-socios tabs">
+
+        <h1>Cupon</h1>
+        <div class="iconos-header">
+            <i id="Busqueda" class="busqueda astaroth-search-1"></i>
+            <i id="AgregarNuevoCupon" class="busqueda astaroth-cross"></i>
+            <i id="VerMasOpciones" class="menumas astaroth-more-2"></i>
+            <i id="vermenuprincipal" class="astaroth-bars-1"></i>
+        </div>
+        <div id="ContenedorBusqueda" class="buscador-header">
+            <input autocomplete="nope" id="TxtTextoBusqueda" type="text" placeholder="Buscar...">
+            <span id="SalirBuscador" class="goback">&lt;</span>
+        </div>
+
+        <div class="cocotab">
+            <div data-nametab="Todo" class="tabestado on">Todos</div>
+            <div data-nametab="Generado" class="tabestado">Generado</div>
+            <div data-nametab="Canjeado" class="tabestado">Canjeado</div>
+        </div>
+
+        <div id="ListaOpciones" class="masopciones">
+            <div id="Ordenar" data-orden="1" class="orden1">Alfabetico</div>
+        </div>
+    </header>
+
+    <div id="ListaCupon">
+
+    </div>
+</div>
+
+<div id="ModalCupon" class="cocomodal">
+
+    <form id="FrmCupon" name="FrmCupon">
+        <div class="item input">
+            <label>Nombre Completo</label>
+            <input autocomplete="nope" id="TxtNombre" name="TxtNombre" type="text" />
+        </div>
+        <div class="item input">
+            <label>Email </label>
+            <input id="TxtEmail" name="TxtEmail"/>
+        </div>        
+        <br />
+       <div id="BtnGuardarCupon" class="item-btn">Guardar</div>
+    </form>
+
+</div>
+
+<div id="Cargando" class="cargandobg"></div>
+
+@section scripts{
+    <script type="text/javascript">
+        $("#Cargando").addClass("on");
+    </script>
+    <script src="~/scripts/Cupon/Cupon.js" asp-append-version="false"></script>
+
+}

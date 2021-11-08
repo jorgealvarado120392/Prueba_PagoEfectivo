@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "jquery@3.6.0",
+      "destination": "wwwroot/js/jquery/"
+    },
+    {
+      "library": "jquery-validate@1.19.3",
+      "destination": "wwwroot/js/jquery-validate/"
+    },
+    {
+      "library": "sweetalert@2.1.2",
+      "destination": "wwwroot/js/sweetalert/"
+    }
+  ]
+}

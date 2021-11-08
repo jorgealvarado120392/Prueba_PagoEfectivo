@@ -1,0 +1,817 @@
+﻿/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');*/
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fBBc9.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype');
+}
+
+/** {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+
+/*div,
+span,
+object,
+iframe,
+img,
+table,
+caption,
+thead,
+tbody,
+tfoot,
+tr,
+tr,
+td,
+article,
+aside,
+canvas,
+details,
+figure,
+hgroup,
+menu,
+nav,
+footer,
+header,
+section,
+summary,
+mark,
+audio,
+video {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cit,
+code,
+del,
+dfn,
+em,
+ins,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+b,
+i,
+hr,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+legend,
+label {
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+canvas,
+figure,
+figure img,
+figcaption,
+hgroup,
+footer,
+header,
+nav,
+section,
+audio,
+video {
+    display: block;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+    table caption,
+    table th,
+    table td {
+        text-align: left;
+        vertical-align: middle;
+    }
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #2aaeb1;
+}
+
+    a img {
+        border: 0;
+    }
+
+:focus {
+    outline: 0;
+}*/
+/* LESS Document */
+/*Colores Generales================
+    ===============================*/
+/*#196AC6;*/
+/*Ccorregir*/
+/*Ccorregir*/
+/*@font-family: 'Open Sans', sans-serif;*/
+/*html {
+    height: 100%;
+}
+
+body {
+    background-color: #fff;
+    font-size: 14px;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+textarea,
+i {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+.titulos {
+    color: #488cff*/ /*#50d9af*/ /*#5691fd*/ /*!important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.verde {
+    color: #2DE3AC !important;
+}
+
+.rojo {
+    color: #d62727 !important;
+}
+
+.amarillo {
+    color: #D2A02B !important;
+}
+
+.link {
+    color: #488cff*/ /*#50d9af*/ /*#5691fd*/ /*!important;
+    cursor: pointer;
+}
+
+    .link:hover {
+        color: #156cff !important;
+    }
+
+.large {
+    font-size: 16px;
+}
+
+.xlarge {
+    font-size: 20px;
+}
+
+.xxlarge {
+    font-size: 26px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.margincero {
+    margin: 0 0 0 0 !important;
+}
+
+.paddingcero {
+    padding: 0 0 0 0 !important;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+.nofloat {
+    float: none;
+}
+
+.hideout {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.shadow1 {
+    box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.16), 1px 4px 6px 0 rgba(0, 0, 0, 0.12);
+}
+
+.bgs {
+    background-position: center;
+    background-size: cover;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+.flexshow {
+    display: flex;
+}
+
+.inlinemiddle {
+    display: inline-block;
+    vertical-align: middle;
+}*/
+/* for custom scrollbar for webkit browser*/
+/*::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ddd;
+    outline: none;
+}
+
+.boton {
+    border-radius: 4px;
+    border: 1px solid #488cff;
+    color: #488cff*/ /*#50d9af*/ /*#5691fd*/ /*;
+    padding: 5px 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+    .boton.derecha {
+        float: right;
+    }
+
+    .boton:hover {
+        background-color: #156cff;
+        color: #fff;
+    }
+
+#Error {
+    font-style: normal;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    color: #d62753;
+    font-weight: bold;
+}*/
+
+.cambiarcontrasena img {
+    width: 110px;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+    .cambiarcontrasena img + div {
+        width: calc(100% - 150px);
+        display: inline-block;
+        vertical-align: top;
+    }
+
+        .cambiarcontrasena img + div p {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+.inputfile {
+    display: inline-block;
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #488cff;
+    color: #488cff;
+    padding: 5px 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+    .inputfile input {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+        display: none;
+    }
+/*Cocomodal ===============================================================
+    ================================================================*/
+.backdropBG {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: initial;
+    right: initial;
+    position: fixed;
+    overflow: auto;
+    background-color: #2f2f2f;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out 0.5s;
+    -moz-transition: all 0.3s ease-out 0.5s;
+    -o-transition: all 0.3s ease-out 0.5s;
+    transition: all 0.3s ease-out 0.5s;
+}
+
+    .backdropBG.showing {
+        opacity: 0.7;
+        -webkit-transition: all 0.3s ease-out 0s;
+        -moz-transition: all 0.3s ease-out 0s;
+        -o-transition: all 0.3s ease-out 0s;
+        transition: all 0.3s ease-out 0s;
+    }
+
+    .backdropBG + .cocomodal {
+        display: block;
+    }
+
+.backdropBG2 {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: initial;
+    right: initial;
+    position: fixed;
+    overflow: auto;
+    background-color: #2f2f2f;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out 0.5s;
+    -moz-transition: all 0.3s ease-out 0.5s;
+    -o-transition: all 0.3s ease-out 0.5s;
+    transition: all 0.3s ease-out 0.5s;
+}
+
+    .backdropBG2.showing {
+        opacity: 0.7;
+        -webkit-transition: all 0.3s ease-out 0s;
+        -moz-transition: all 0.3s ease-out 0s;
+        -o-transition: all 0.3s ease-out 0s;
+        transition: all 0.3s ease-out 0s;
+    }
+
+    .backdropBG2 + .cocomodal {
+        display: block;
+    }
+
+.cocomodal {
+    position: fixed;
+    box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.16), 1px 4px 6px 0 rgba(0, 0, 0, 0.12);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: initial;
+    right: initial;
+    min-height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    -webkit-transform: translate(-50%, -50%) scale(0);
+    border-radius: 0px;
+    background: #fff;
+    -webkit-transition: all 0.3s ease-out 0.2s;
+    -moz-transition: all 0.3s ease-out 0.2s;
+    -o-transition: all 0.3s ease-out 0.2s;
+    transition: all 0.3s ease-out 0.2s;
+    display: none;
+    max-height: none;
+    max-width: none;
+    padding: 50px 15px 20px;
+}
+
+    .cocomodal.hideout {
+        overflow: hidden !important;
+    }
+
+@media screen and (min-width: 800px) {
+    .cocomodal {
+        width: 600px;
+        height: auto;
+        bottom: initial;
+        right: initial;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        -webkit-transform: translate(-50%, -50%) scale(0);
+        max-height: 90%;
+        border-radius: 4px;
+    }
+}
+
+.cocomodal.mini {
+    max-width: 450px;
+    border-radius: 4px;
+}
+
+.cocomodal.showing {
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, 0%) scale(1);
+    -webkit-transform: translate(0%, 0%) scale(1);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: initial;
+    right: initial;
+}
+
+@media screen and (min-width: 800px) {
+    .cocomodal.showing {
+        width: 600px;
+        height: auto;
+        bottom: initial;
+        right: initial;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(1);
+        -webkit-transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+.cocomodal .heading {
+    padding-bottom: 10px;
+    min-height: 30px;
+    padding: 12px 30px 9px 15px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    color: #488cff;
+    font-size: 16px;
+}
+
+    .cocomodal .heading i {
+        width: 20px;
+        height: 20px;
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 9px;
+    }
+
+@media screen and (min-width: 800px) {
+    .cocomodal .heading i {
+        right: -40px;
+    }
+}
+
+.cocomodal .heading i:before,
+.cocomodal .heading i:after {
+    _-webkit-transition: all 0.3s ease;
+    _transition: all 0.3s ease;
+    content: '';
+    position: absolute;
+    width: 20px;
+    top: 50%;
+    height: 1px;
+    background: #e2e2e2;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.cocomodal .heading i:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.cocomodal .heading i:hover {
+    cursor: pointer;
+}
+
+    .cocomodal .heading i:hover:before,
+    .cocomodal .heading i:hover:after {
+        background: #156cff;
+    }
+
+.cocomodal .cocoWrapper {
+    text-align: justify;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.cocomodal .cocoSuccess {
+    background-color: #34c495;
+    padding: 8px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+}
+
+    .cocomodal .cocoSuccess:hover {
+        background-color: #1bdd9e;
+    }
+
+.cocomodal .cocoCancel {
+    background-color: #cdcdcd;
+    padding: 8px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+    .cocomodal .cocoCancel:hover {
+        background-color: #e81b49;
+    }
+
+.cocomodal.cardmodal-active {
+    overflow: hidden;
+}
+
+body.cocomodal-active {
+    overflow: hidden;
+}
+/*Fin Cocomodal :) ==================================*/
+.sidebg {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: initial;
+    right: initial;
+    position: fixed;
+    background-color: #2f2f2f;
+    opacity: 0.7;
+    z-index: 5000;
+}
+
+.cerrarsides {
+    padding: 7px 20px !important;
+    color: rgba(255, 255, 255, 0.38);
+    font-size: 30px;
+    height: auto !important;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+    .cerrarsides:hover {
+        color: #fff;
+    }
+
+.sides {
+    display: inline-block;
+    background-color: #fff;
+    opacity: 0;
+    position: fixed;
+    width: 100%;
+    height: 0;
+    top: 100%;
+    left: 0;
+    bottom: initial;
+    right: initial;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+    z-index: 5001;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 800px) {
+    .sides {
+        width: 800px;
+        height: 90%;
+        bottom: initial;
+        right: initial;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        -webkit-transform: translate(-50%, -50%) scale(0);
+    }
+}
+
+.sides.on {
+    height: 100%;
+    top: 0;
+    opacity: 1;
+}
+
+@media screen and (min-width: 800px) {
+    .sides.on {
+        width: 800px;
+        height: 90%;
+        bottom: initial;
+        right: initial;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(1);
+        -webkit-transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+.sides > div {
+    -webkit-transition: all 0.2s ease-out 0s;
+    -moz-transition: all 0.2s ease-out 0s;
+    -o-transition: all 0.2s ease-out 0s;
+    transition: all 0.2s ease-out 0s;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: initial;
+    right: initial;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+.sides header {
+    padding: 15px 20px 15px 31px;
+}
+
+    .sides header .goback {
+        bottom: 16px;
+        top: 17px;
+        left: 15px;
+    }
+
+    .sides header .titulo-botones {
+        bottom: 9px;
+    }
+
+.sides.fullscreen {
+    width: 100%;
+    margin-top: 50px;
+    height: calc(100% - 25px);
+    padding: 0;
+    z-index: 1;
+}
+
+.sides .side1.on {
+    left: 0;
+}
+
+.sides .side2 {
+    left: 100%;
+}
+
+.sides .side3 {
+    left: 200%;
+}
+
+.sides .side4 {
+    left: 300%;
+}
+
+.sides.side2 .side1 {
+    left: -100%;
+}
+
+.sides.side2 .side2.on {
+    left: 0;
+}
+
+.sides.side2 .side3 {
+    left: 100%;
+}
+
+.sides.side2 .side4 {
+    left: 200%;
+}
+
+.sides.side2.side3 .side1 {
+    left: -200%;
+}
+
+.sides.side2.side3 .side2 {
+    left: -100%;
+}
+
+.sides.side2.side3 .side3.on {
+    left: 0%;
+}
+
+.sides.side2.side3 .side4 {
+    left: 100%;
+}
+
+    .sides.side2.side3.side4 .side1 {
+        left: -300%;
+    }
+
+    .sides.side2.side3.side4 .side2 {
+        left: -200%;
+    }
+
+    .sides.side2.side3.side4 .side3.on {
+        left: -100%;
+    }
+
+    .sides.side2.side3.side4 .side4 {
+        left: 0%;
+    }
+
+.secciongroup {
+    color: #808080;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 10px !important;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+    .secciongroup + .items {
+        display: none;
+        padding: 10PX;
+    }
+
+    .secciongroup.on,
+    .secciongroup:hover {
+        color: #488cff;
+    }

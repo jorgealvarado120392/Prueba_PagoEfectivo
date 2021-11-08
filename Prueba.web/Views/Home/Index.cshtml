@@ -1,0 +1,124 @@
+﻿@{
+    Layout = null;
+
+}
+<html>
+<head itemscope="" itemtype="http://schema.org/WebSite">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Prueba</title>
+    <link href="~/css/ui.min.css" rel="stylesheet" asp-append-version="true" />
+    <link href="/fonts/astaroth.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <nav class="viendo">
+
+        <div id="Cargando" class="cargandobg"></div>
+
+        <div id="AccionUsuario" class="AccionUsuario">
+
+
+        </div>
+
+        <div id="listamenu" class="listamenu">
+            <div class="MenusPadres" data-nombre="Cupón" data-id="">
+                <i class="astaroth-computer-2"></i>
+            </div>
+
+        </div>
+        <ul id="ListaHijosMenu">
+            <li>
+                <a class="MenusHijos" href="@Url.Action("Cupon", "Home")">
+                    <span>Mantenimiento Cupón</span>
+                </a>
+            </li>
+            <li>
+                <a class="MenusHijos" href="@Url.Action("CanjearCupon", "Home")">
+                    <span>Validar Cupón</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <script src="~/lib/jquery/jquery.js"></script>
+
+    <script src="~/lib/sweetalert/sweetalert.min.js"></script>
+
+    <script type="text/javascript">
+
+
+
+        var urlmenuhijo;
+
+
+
+        $(document).ready(function () {
+            $.fn.addClassDelay = function (className, delay) {
+                var $addClassDelayElement = $(this), $addClassName = className;
+                setTimeout(function () {
+                    $addClassDelayElement.addClass($addClassName);
+                }, delay);
+            };
+
+            $.fn.modalcoco = function (valor) {
+                if (valor == 'open') {
+
+                    $("<div class='backdropBG'></div>").insertBefore(this);
+                    //$(this).append("<i class='closecoco'>x</i>");
+                    $(".backdropBG").addClassDelay('showing', 1);
+                    $("body").addClass('cocomodal-active');
+                    $(this).addClassDelay('showing', 100);
+
+                }
+
+                if (valor == 'close') {
+                    event.preventDefault();
+                    window.location.hash = '';
+                    $('.backdropBG').removeClass("showing");
+                    $('.cocomodal').removeClass("showing");
+                    $("body").removeClass('cocomodal-active');
+                    function chaumodal() {
+                        $('.backdropBG').remove();
+                        //$('.closecoco').remove();
+
+
+                    }
+                    setTimeout(chaumodal, 701);
+                }
+            }
+            $("nav").addClass("viendo");
+
+            $(document).on('click', '.backdropBG , .closecoco', function (event) {
+                $(this).modalcoco('close');
+
+            });
+
+            $(document).on("click", ".MenusHijos", function (e) {
+
+                e.preventDefault();
+
+                urlmenuhijo = $(this)[0].href;
+
+                $("#Cargando").addClass("on");
+
+                location.href = urlmenuhijo;
+            });
+
+            $(document).on('click', '#listamenu div', function (event) {
+                $('nav').addClass('on');
+                $('.listamenu div').removeClass('on');
+                $(this).addClass('on');
+            });
+
+            $(document).ajaxStop(function () {
+                $("#Cargando").removeClass("on");
+            });
+
+
+        });
+    </script>
+
+</body>
+</html>

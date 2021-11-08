@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Prueba.webapi</name>
+    </assembly>
+    <members>
+        <member name="M:Prueba.webapi.Controllers.GenerarCodigoController.Post(Prueba.Entidad.Especificas.Entidad_DataCupon)">
+            <summary>
+            Función usada para consultar el estado de los documentos de venta de sunat
+            </summary>
+            <param name="request"></param>
+            <returns>
+            Se envia un documento tipo json en el formulario con el tipo de data consultaconstanciarequest
+            </returns>
+        </member>
+        <member name="M:Prueba.webapi.Controllers.ValidarCodigoController.Post(System.String)">
+            <summary>
+            Función usada para consultar el estado de los documentos de venta de sunat
+            </summary>
+            <param name="request"></param>
+            <returns>
+            Se envia un documento tipo json en el formulario con el tipo de data consultaconstanciarequest
+            </returns>
+        </member>
+        <member name="F:Prueba.webapi.SwaggerConfiguration.EndpointDescription">
+            <summary>
+            <para>Foo API v2.1</para>
+            </summary>
+        </member>
+        <member name="F:Prueba.webapi.SwaggerConfiguration.EndpointUrl">
+            <summary>
+            <para>/swagger/v1.0/swagger.json</para>
+            </summary>
+        </member>
+        <member name="F:Prueba.webapi.SwaggerConfiguration.ContactName">
+            <summary>
+            <para>Jorge Serrano</para>
+            </summary>
+        </member>
+        <member name="F:Prueba.webapi.SwaggerConfiguration.ContactUrl">
+            <summary>
+            <para>http://geeks.ms/jorge/</para>
+            </summary>
+        </member>
+        <member name="F:Prueba.webapi.SwaggerConfiguration.DocNameV">
+            <summary>
+            <para>v2.1</para>
+            </summary>
+        </member>
+        <member name="F:Prueba.webapi.SwaggerConfiguration.DocInfoTitle">
+            <summary>
+            <para>Foo API</para>
+            </summary>
+        </member>
+        <member name="F:Prueba.webapi.SwaggerConfiguration.DocInfoVersion">
+            <summary>
+            <para>v2.1</para>
+            </summary>
+        </member>
+        <member name="F:Prueba.webapi.SwaggerConfiguration.DocInfoDescription">
+            <summary>
+            <para>Foo Api - Sample Web API in ASP.NET 5.0</para>
+            </summary>
+        </member>
+    </members>
+</doc>

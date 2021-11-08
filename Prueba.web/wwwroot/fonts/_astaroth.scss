@@ -1,0 +1,698 @@
+/*
+    Astaroth icon font: Astaroth
+    Creation date: 12/09/2017 21:41
+    */
+
+@font-face {
+    font-family: "Astaroth";
+    src: url("./Astaroth.eot");
+    src: url("./Astaroth.eot?#iefix") format("embedded-opentype"), 
+         url("./Astaroth.woff") format("woff"),
+         url("./Astaroth.ttf") format("truetype"),
+         url("./Astaroth.svg#Astaroth") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: "Astaroth";
+        src: url("./Astaroth.svg#Astaroth") format("svg");
+    }
+}
+
+.fi:before {
+    display: inline-block;
+    font-family: "Astaroth";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+.astaroth-computer-2:before {
+    content: "\f100";
+}
+
+.astaroth-time:before {
+    content: "\f101";
+}
+
+.astaroth-calendar-2:before {
+    content: "\f102";
+}
+
+.astaroth-calendar-1:before {
+    content: "\f103";
+}
+
+.astaroth-calendar:before {
+    content: "\f104";
+}
+
+.astaroth-market:before {
+    content: "\f105";
+}
+
+.astaroth-shop:before {
+    content: "\f106";
+}
+
+.astaroth-home-1:before {
+    content: "\f107";
+}
+
+.astaroth-right-arrow-circular-button:before {
+    content: "\f108";
+}
+
+.astaroth-symbol:before {
+    content: "\f109";
+}
+
+.astaroth-write:before {
+    content: "\f10a";
+}
+
+.astaroth-layers-1:before {
+    content: "\f10b";
+}
+
+.astaroth-new-file:before {
+    content: "\f10c";
+}
+
+.astaroth-magnifying-glass-1:before {
+    content: "\f10d";
+}
+
+.astaroth-magnifying-glass:before {
+    content: "\f10e";
+}
+
+.astaroth-menu:before {
+    content: "\f10f";
+}
+
+.astaroth-show-more-button-with-three-dots:before {
+    content: "\f110";
+}
+
+.astaroth-more-2:before {
+    content: "\f111";
+}
+
+.astaroth-add-user-button:before {
+    content: "\f112";
+}
+
+.astaroth-list:before {
+    content: "\f113";
+}
+
+.astaroth-people:before {
+    content: "\f114";
+}
+
+.astaroth-shapes:before {
+    content: "\f115";
+}
+
+.astaroth-cross:before {
+    content: "\f116";
+}
+
+.astaroth-signs:before {
+    content: "\f117";
+}
+
+.astaroth-more-1:before {
+    content: "\f118";
+}
+
+.astaroth-plus:before {
+    content: "\f119";
+}
+
+.astaroth-more:before {
+    content: "\f11a";
+}
+
+.astaroth-bars-1:before {
+    content: "\f11b";
+}
+
+.astaroth-exclamation-1:before {
+    content: "\f11c";
+}
+
+.astaroth-up-arrow-1:before {
+    content: "\f11d";
+}
+
+.astaroth-down-arrow-1:before {
+    content: "\f11e";
+}
+
+.astaroth-warning:before {
+    content: "\f11f";
+}
+
+.astaroth-business-1:before {
+    content: "\f120";
+}
+
+.astaroth-arrows-1:before {
+    content: "\f121";
+}
+
+.astaroth-lock-1:before {
+    content: "\f122";
+}
+
+.astaroth-check:before {
+    content: "\f123";
+}
+
+.astaroth-logout:before {
+    content: "\f124";
+}
+
+.astaroth-left-arrow:before {
+    content: "\f125";
+}
+
+.astaroth-up-arrow:before {
+    content: "\f126";
+}
+
+.astaroth-user-1:before {
+    content: "\f127";
+}
+
+.astaroth-transfer:before {
+    content: "\f128";
+}
+
+.astaroth-right-arrow:before {
+    content: "\f129";
+}
+
+.astaroth-down-arrow:before {
+    content: "\f12a";
+}
+
+.astaroth-login:before {
+    content: "\f12b";
+}
+
+.astaroth-clock-1:before {
+    content: "\f12c";
+}
+
+.astaroth-chat:before {
+    content: "\f12d";
+}
+
+.astaroth-back:before {
+    content: "\f12e";
+}
+
+.astaroth-next:before {
+    content: "\f12f";
+}
+
+.astaroth-search-2:before {
+    content: "\f130";
+}
+
+.astaroth-can:before {
+    content: "\f131";
+}
+
+.astaroth-interface-2:before {
+    content: "\f132";
+}
+
+.astaroth-technology-4:before {
+    content: "\f133";
+}
+
+.astaroth-technology-3:before {
+    content: "\f134";
+}
+
+.astaroth-line:before {
+    content: "\f135";
+}
+
+.astaroth-interface-1:before {
+    content: "\f136";
+}
+
+.astaroth-technology-2:before {
+    content: "\f137";
+}
+
+.astaroth-technology-1:before {
+    content: "\f138";
+}
+
+.astaroth-attachment:before {
+    content: "\f139";
+}
+
+.astaroth-exclamation:before {
+    content: "\f13a";
+}
+
+.astaroth-arrows:before {
+    content: "\f13b";
+}
+
+.astaroth-multimedia:before {
+    content: "\f13c";
+}
+
+.astaroth-layers:before {
+    content: "\f13d";
+}
+
+.astaroth-business:before {
+    content: "\f13e";
+}
+
+.astaroth-interface:before {
+    content: "\f13f";
+}
+
+.astaroth-tool:before {
+    content: "\f140";
+}
+
+.astaroth-photo:before {
+    content: "\f141";
+}
+
+.astaroth-cogwheel:before {
+    content: "\f142";
+}
+
+.astaroth-folder-2:before {
+    content: "\f143";
+}
+
+.astaroth-folder-1:before {
+    content: "\f144";
+}
+
+.astaroth-luxury:before {
+    content: "\f145";
+}
+
+.astaroth-lock:before {
+    content: "\f146";
+}
+
+.astaroth-message:before {
+    content: "\f147";
+}
+
+.astaroth-computer-1:before {
+    content: "\f148";
+}
+
+.astaroth-technology:before {
+    content: "\f149";
+}
+
+.astaroth-database-1:before {
+    content: "\f14a";
+}
+
+.astaroth-settings:before {
+    content: "\f14b";
+}
+
+.astaroth-clock:before {
+    content: "\f14c";
+}
+
+.astaroth-star-1:before {
+    content: "\f14d";
+}
+
+.astaroth-idea:before {
+    content: "\f14e";
+}
+
+.astaroth-play-button-1:before {
+    content: "\f14f";
+}
+
+.astaroth-star:before {
+    content: "\f150";
+}
+
+.astaroth-photo-camera:before {
+    content: "\f151";
+}
+
+.astaroth-error:before {
+    content: "\f152";
+}
+
+.astaroth-placeholder-1:before {
+    content: "\f153";
+}
+
+.astaroth-success:before {
+    content: "\f154";
+}
+
+.astaroth-smartphone-1:before {
+    content: "\f155";
+}
+
+.astaroth-play-button:before {
+    content: "\f156";
+}
+
+.astaroth-user:before {
+    content: "\f157";
+}
+
+.astaroth-like:before {
+    content: "\f158";
+}
+
+.astaroth-search-1:before {
+    content: "\f159";
+}
+
+.astaroth-placeholder:before {
+    content: "\f15a";
+}
+
+.astaroth-computer:before {
+    content: "\f15b";
+}
+
+.astaroth-folder:before {
+    content: "\f15c";
+}
+
+.astaroth-cd:before {
+    content: "\f15d";
+}
+
+.astaroth-inbox:before {
+    content: "\f15e";
+}
+
+.astaroth-usb:before {
+    content: "\f15f";
+}
+
+.astaroth-database:before {
+    content: "\f160";
+}
+
+.astaroth-search:before {
+    content: "\f161";
+}
+
+.astaroth-cloud:before {
+    content: "\f162";
+}
+
+.astaroth-share:before {
+    content: "\f163";
+}
+
+.astaroth-popcorn:before {
+    content: "\f164";
+}
+
+.astaroth-soft-drink:before {
+    content: "\f165";
+}
+
+.astaroth-ticket:before {
+    content: "\f166";
+}
+
+.astaroth-briefcase:before {
+    content: "\f167";
+}
+
+.astaroth-presentation:before {
+    content: "\f168";
+}
+
+.astaroth-id-card:before {
+    content: "\f169";
+}
+
+.astaroth-tie:before {
+    content: "\f16a";
+}
+
+.astaroth-unlocked:before {
+    content: "\f16b";
+}
+
+.astaroth-smartphone:before {
+    content: "\f16c";
+}
+
+.astaroth-home:before {
+    content: "\f16d";
+}
+
+.astaroth-key:before {
+    content: "\f16e";
+}
+
+.astaroth-padlock:before {
+    content: "\f16f";
+}
+
+.astaroth-password:before {
+    content: "\f170";
+}
+
+.astaroth-credit-card-1:before {
+    content: "\f171";
+}
+
+.astaroth-cctv:before {
+    content: "\f172";
+}
+
+.astaroth-shield-1:before {
+    content: "\f173";
+}
+
+.astaroth-yens:before {
+    content: "\f174";
+}
+
+.astaroth-exchange:before {
+    content: "\f175";
+}
+
+.astaroth-money:before {
+    content: "\f176";
+}
+
+.astaroth-mobile-phone:before {
+    content: "\f177";
+}
+
+.astaroth-shield:before {
+    content: "\f178";
+}
+
+.astaroth-strongbox:before {
+    content: "\f179";
+}
+
+.astaroth-note:before {
+    content: "\f17a";
+}
+
+.astaroth-coins:before {
+    content: "\f17b";
+}
+
+.astaroth-chart:before {
+    content: "\f17c";
+}
+
+.astaroth-euro:before {
+    content: "\f17d";
+}
+
+.astaroth-bank:before {
+    content: "\f17e";
+}
+
+.astaroth-credit-card:before {
+    content: "\f17f";
+}
+
+.astaroth-wallet-1:before {
+    content: "\f180";
+}
+
+.astaroth-money-bag:before {
+    content: "\f181";
+}
+
+.astaroth-wallet:before {
+    content: "\f182";
+}
+
+.astaroth-bars:before {
+    content: "\f183";
+}
+
+$font-Astaroth-computer-2: "\f100";
+$font-Astaroth-time: "\f101";
+$font-Astaroth-calendar-2: "\f102";
+$font-Astaroth-calendar-1: "\f103";
+$font-Astaroth-calendar: "\f104";
+$font-Astaroth-market: "\f105";
+$font-Astaroth-shop: "\f106";
+$font-Astaroth-home-1: "\f107";
+$font-Astaroth-right-arrow-circular-button: "\f108";
+$font-Astaroth-symbol: "\f109";
+$font-Astaroth-write: "\f10a";
+$font-Astaroth-layers-1: "\f10b";
+$font-Astaroth-new-file: "\f10c";
+$font-Astaroth-magnifying-glass-1: "\f10d";
+$font-Astaroth-magnifying-glass: "\f10e";
+$font-Astaroth-menu: "\f10f";
+$font-Astaroth-show-more-button-with-three-dots: "\f110";
+$font-Astaroth-more-2: "\f111";
+$font-Astaroth-add-user-button: "\f112";
+$font-Astaroth-list: "\f113";
+$font-Astaroth-people: "\f114";
+$font-Astaroth-shapes: "\f115";
+$font-Astaroth-cross: "\f116";
+$font-Astaroth-signs: "\f117";
+$font-Astaroth-more-1: "\f118";
+$font-Astaroth-plus: "\f119";
+$font-Astaroth-more: "\f11a";
+$font-Astaroth-bars-1: "\f11b";
+$font-Astaroth-exclamation-1: "\f11c";
+$font-Astaroth-up-arrow-1: "\f11d";
+$font-Astaroth-down-arrow-1: "\f11e";
+$font-Astaroth-warning: "\f11f";
+$font-Astaroth-business-1: "\f120";
+$font-Astaroth-arrows-1: "\f121";
+$font-Astaroth-lock-1: "\f122";
+$font-Astaroth-check: "\f123";
+$font-Astaroth-logout: "\f124";
+$font-Astaroth-left-arrow: "\f125";
+$font-Astaroth-up-arrow: "\f126";
+$font-Astaroth-user-1: "\f127";
+$font-Astaroth-transfer: "\f128";
+$font-Astaroth-right-arrow: "\f129";
+$font-Astaroth-down-arrow: "\f12a";
+$font-Astaroth-login: "\f12b";
+$font-Astaroth-clock-1: "\f12c";
+$font-Astaroth-chat: "\f12d";
+$font-Astaroth-back: "\f12e";
+$font-Astaroth-next: "\f12f";
+$font-Astaroth-search-2: "\f130";
+$font-Astaroth-can: "\f131";
+$font-Astaroth-interface-2: "\f132";
+$font-Astaroth-technology-4: "\f133";
+$font-Astaroth-technology-3: "\f134";
+$font-Astaroth-line: "\f135";
+$font-Astaroth-interface-1: "\f136";
+$font-Astaroth-technology-2: "\f137";
+$font-Astaroth-technology-1: "\f138";
+$font-Astaroth-attachment: "\f139";
+$font-Astaroth-exclamation: "\f13a";
+$font-Astaroth-arrows: "\f13b";
+$font-Astaroth-multimedia: "\f13c";
+$font-Astaroth-layers: "\f13d";
+$font-Astaroth-business: "\f13e";
+$font-Astaroth-interface: "\f13f";
+$font-Astaroth-tool: "\f140";
+$font-Astaroth-photo: "\f141";
+$font-Astaroth-cogwheel: "\f142";
+$font-Astaroth-folder-2: "\f143";
+$font-Astaroth-folder-1: "\f144";
+$font-Astaroth-luxury: "\f145";
+$font-Astaroth-lock: "\f146";
+$font-Astaroth-message: "\f147";
+$font-Astaroth-computer-1: "\f148";
+$font-Astaroth-technology: "\f149";
+$font-Astaroth-database-1: "\f14a";
+$font-Astaroth-settings: "\f14b";
+$font-Astaroth-clock: "\f14c";
+$font-Astaroth-star-1: "\f14d";
+$font-Astaroth-idea: "\f14e";
+$font-Astaroth-play-button-1: "\f14f";
+$font-Astaroth-star: "\f150";
+$font-Astaroth-photo-camera: "\f151";
+$font-Astaroth-error: "\f152";
+$font-Astaroth-placeholder-1: "\f153";
+$font-Astaroth-success: "\f154";
+$font-Astaroth-smartphone-1: "\f155";
+$font-Astaroth-play-button: "\f156";
+$font-Astaroth-user: "\f157";
+$font-Astaroth-like: "\f158";
+$font-Astaroth-search-1: "\f159";
+$font-Astaroth-placeholder: "\f15a";
+$font-Astaroth-computer: "\f15b";
+$font-Astaroth-folder: "\f15c";
+$font-Astaroth-cd: "\f15d";
+$font-Astaroth-inbox: "\f15e";
+$font-Astaroth-usb: "\f15f";
+$font-Astaroth-database: "\f160";
+$font-Astaroth-search: "\f161";
+$font-Astaroth-cloud: "\f162";
+$font-Astaroth-share: "\f163";
+$font-Astaroth-popcorn: "\f164";
+$font-Astaroth-soft-drink: "\f165";
+$font-Astaroth-ticket: "\f166";
+$font-Astaroth-briefcase: "\f167";
+$font-Astaroth-presentation: "\f168";
+$font-Astaroth-id-card: "\f169";
+$font-Astaroth-tie: "\f16a";
+$font-Astaroth-unlocked: "\f16b";
+$font-Astaroth-smartphone: "\f16c";
+$font-Astaroth-home: "\f16d";
+$font-Astaroth-key: "\f16e";
+$font-Astaroth-padlock: "\f16f";
+$font-Astaroth-password: "\f170";
+$font-Astaroth-credit-card-1: "\f171";
+$font-Astaroth-cctv: "\f172";
+$font-Astaroth-shield-1: "\f173";
+$font-Astaroth-yens: "\f174";
+$font-Astaroth-exchange: "\f175";
+$font-Astaroth-money: "\f176";
+$font-Astaroth-mobile-phone: "\f177";
+$font-Astaroth-shield: "\f178";
+$font-Astaroth-strongbox: "\f179";
+$font-Astaroth-note: "\f17a";
+$font-Astaroth-coins: "\f17b";
+$font-Astaroth-chart: "\f17c";
+$font-Astaroth-euro: "\f17d";
+$font-Astaroth-bank: "\f17e";
+$font-Astaroth-credit-card: "\f17f";
+$font-Astaroth-wallet-1: "\f180";
+$font-Astaroth-money-bag: "\f181";
+$font-Astaroth-wallet: "\f182";
+$font-Astaroth-bars: "\f183";

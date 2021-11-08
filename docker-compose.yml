@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  prueba.webapi:
+    image: ${DOCKER_REGISTRY-}pruebawebapi
+    build:
+      context: .
+      dockerfile: Prueba.webapi/Dockerfile
